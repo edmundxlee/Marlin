@@ -71,7 +71,7 @@
 #endif
 #if HOTENDS == 1
   #ifndef FAN1_PIN
-    #define FAN1_PIN                       P2_04
+    #define FAN1_PIN                       P2_04  // twoflyingfox: Since we have only 1 hotend (HE0, i.e. P2_07), we are using the 2nd hotend (HE1, i.e. P2_04) to connect HE0's fan, since it is a PWM pin.  
   #endif
 #else
   #ifndef HEATER_1_PIN
@@ -79,7 +79,7 @@
   #endif
 #endif
 #ifndef FAN_PIN
-  #define FAN_PIN                          P2_03
+  #define FAN_PIN                          P2_03  // twoflyingfox: FAN_PIN is the part cooling fan for the first extruder. 
 #endif
 #ifndef HEATER_BED_PIN
   #define HEATER_BED_PIN                   P2_05
