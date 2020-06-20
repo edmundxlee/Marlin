@@ -146,6 +146,10 @@ Marlin/*/*/readme.txt
 Marlin/*/*/*/readme.txt
 Marlin/*/*/*/*/readme.txt
 
+# Ignore Configurations
+Marlin/Marlin/Configuration.h
+Marlin/Marlin/Configuration_adv.h
+
 # Secure Credentials
 Configuration_Secure.h
 
