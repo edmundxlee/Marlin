@@ -812,8 +812,8 @@
   #endif
 #endif
 
-// twoflyingfox: Originally 5.0, now set to 3.0. See https://github.com/MarlinFirmware/Marlin/issues/16155
-#define DEFAULT_EJERK    3.0  // May be used by Linear Advance
+// twoflyingfox: Previously 3.0, now set back to 5.0. See https://github.com/MarlinFirmware/Marlin/issues/16155
+#define DEFAULT_EJERK    5.0  // May be used by Linear Advance
 
 /**
  * Junction Deviation Factor
